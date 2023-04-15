@@ -175,8 +175,9 @@ question9 = Questions('Сколько градусов в круге?', '360', '
 question10 = Questions('Какой формы знак STOP?', 'Шестиугольник', 'Восьмиугольник', 'Треугольник', 'Треугольник', 1)
 question11 = Questions('Какой континент на Земле самый большой?', 'Евразия', 'Африка', 'Южная Америка', 'Антарктида', 1)
 question12 = Questions('Какая страна граничит с 14 странами и пересекает 8 часовых поясов?', 'Россия', 'Китай', 'Испания', 'Индия', 1)
+question13 = Questions('Какая валюта Дании?', 'Крона', 'Доллар', 'Юань', 'Евро', 1)
 
-question_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12]
+question_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10, question11, question12, question13]
 shuffle(question_list)
 
 main_win.total = 0
